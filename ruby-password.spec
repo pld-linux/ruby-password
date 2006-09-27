@@ -8,13 +8,13 @@ Source0:	http://www.caliban.org/files/ruby/%{name}-%{version}.tar.gz
 # Source0-md5:	b4304bab359bdc95bc7f0938b0db4bed
 Patch0:		%{name}-dictlocation.patch
 URL:		http://www.caliban.org/ruby/ruby-password.shtml
+BuildRequires:	cracklib-devel
+BuildRequires:	cracklib-dicts
 BuildRequires:	cracklib-dicts
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
-BuildRequires:	cracklib-devel
-BuildRequires:	cracklib-dicts
+Requires:	cracklib-dicts
 Requires:	ruby-termios
-Requires: cracklib-dicts
 %{?ruby_mod_ver_requires_eq}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
