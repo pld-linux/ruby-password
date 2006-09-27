@@ -10,6 +10,7 @@ Patch0:	%{name}-dictlocation.patch
 URL:		http://www.caliban.org/ruby/ruby-password.shtml
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
+BuildRequires:	cracklib-devel
 BuildRequires:	cracklib-dicts
 %{?ruby_mod_ver_requires_eq}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
