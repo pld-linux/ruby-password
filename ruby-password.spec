@@ -6,17 +6,24 @@ License:	GPL
 Group:		Development/Languages
 Source0:	http://www.caliban.org/files/ruby/%{name}-%{version}.tar.gz
 # Source0-md5:	b4304bab359bdc95bc7f0938b0db4bed
-Patch0:	%{name}-dictlocation.patch
+Patch0:		%{name}-dictlocation.patch
 URL:		http://www.caliban.org/ruby/ruby-password.shtml
+BuildRequires:	cracklib-dicts
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
 BuildRequires:	cracklib-devel
 BuildRequires:	cracklib-dicts
+Requires:	ruby-termios
+Requires: cracklib-dicts
 %{?ruby_mod_ver_requires_eq}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Ruby/Password is a suite of password handling methods for Ruby. It supports the manual entry of passwords from the keyboard in both buffered and unbuffered modes, password strength checking, random password generation, phonemic password generation (for easy memorisation by human-beings) and the encryption of passwords.
+Ruby/Password is a suite of password handling methods for Ruby. It
+supports the manual entry of passwords from the keyboard in both
+buffered and unbuffered modes, password strength checking, random
+password generation, phonemic password generation (for easy
+memorisation by human-beings) and the encryption of passwords.
 
 %prep
 %setup -q
