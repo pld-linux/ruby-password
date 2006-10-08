@@ -1,4 +1,5 @@
 Summary:	Ruby password manipulation library
+Summary(pl):	Biblioteka operacji na has³ach dla jêzyka Ruby
 Name:		ruby-password
 Version:	0.5.3
 Release:	1
@@ -9,7 +10,6 @@ Source0:	http://www.caliban.org/files/ruby/%{name}-%{version}.tar.gz
 Patch0:		%{name}-dictlocation.patch
 URL:		http://www.caliban.org/ruby/ruby-password.shtml
 BuildRequires:	cracklib-devel
-BuildRequires:	cracklib-dicts
 BuildRequires:	cracklib-dicts
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
@@ -24,6 +24,13 @@ supports the manual entry of passwords from the keyboard in both
 buffered and unbuffered modes, password strength checking, random
 password generation, phonemic password generation (for easy
 memorisation by human-beings) and the encryption of passwords.
+
+%description -l pl
+Ruby/Password to zestaw metod do operacji na has³ach dla jêzyka Ruby.
+Obs³uguje rêczne wprowadzanie hase³ z klawiatury zarówno w trybie
+buforowanym jak i niebuforowanym, sprawdzanie jako¶ci hase³, losowe
+generowanie hase³, generowanie hase³ fonematycznych (do ³atwego
+zapamiêtania dla ludzi) oraz szyfrowanie hase³.
 
 %prep
 %setup -q
