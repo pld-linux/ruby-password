@@ -1,5 +1,5 @@
 Summary:	Ruby password manipulation library
-Summary(pl.UTF-8):   Biblioteka operacji na hasłach dla języka Ruby
+Summary(pl.UTF-8):	Biblioteka operacji na hasłach dla języka Ruby
 Name:		ruby-password
 Version:	0.5.3
 Release:	1
