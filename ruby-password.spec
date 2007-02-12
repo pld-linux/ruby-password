@@ -1,5 +1,5 @@
 Summary:	Ruby password manipulation library
-Summary(pl):	Biblioteka operacji na has≥ach dla jÍzyka Ruby
+Summary(pl.UTF-8):   Biblioteka operacji na has≈Çach dla jƒôzyka Ruby
 Name:		ruby-password
 Version:	0.5.3
 Release:	1
@@ -25,12 +25,12 @@ buffered and unbuffered modes, password strength checking, random
 password generation, phonemic password generation (for easy
 memorisation by human-beings) and the encryption of passwords.
 
-%description -l pl
-Ruby/Password to zestaw metod do operacji na has≥ach dla jÍzyka Ruby.
-Obs≥uguje rÍczne wprowadzanie hase≥ z klawiatury zarÛwno w trybie
-buforowanym jak i niebuforowanym, sprawdzanie jako∂ci hase≥, losowe
-generowanie hase≥, generowanie hase≥ fonematycznych (do ≥atwego
-zapamiÍtania dla ludzi) oraz szyfrowanie hase≥.
+%description -l pl.UTF-8
+Ruby/Password to zestaw metod do operacji na has≈Çach dla jƒôzyka Ruby.
+Obs≈Çuguje rƒôczne wprowadzanie hase≈Ç z klawiatury zar√≥wno w trybie
+buforowanym jak i niebuforowanym, sprawdzanie jako≈õci hase≈Ç, losowe
+generowanie hase≈Ç, generowanie hase≈Ç fonematycznych (do ≈Çatwego
+zapamiƒôtania dla ludzi) oraz szyfrowanie hase≈Ç.
 
 %prep
 %setup -q
