@@ -55,7 +55,7 @@ install -d $RPM_BUILD_ROOT{%{ruby_rubylibdir},%{ruby_ridir},%{_bindir}}
 	sitelibdir=$RPM_BUILD_ROOT%{ruby_rubylibdir} \
 	rubylibdir=$RPM_BUILD_ROOT%{ruby_rubylibdir}
 
-cp -a ri/ri/* $RPM_BUILD_ROOT%{ruby_ridir}
+cp -a ri/* $RPM_BUILD_ROOT%{ruby_ridir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
